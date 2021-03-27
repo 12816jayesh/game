@@ -1,0 +1,109 @@
+/* .grid{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: 3px solid red;
+}
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    
+}
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: purple;
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+} */
+body{
+    background-image: linear-gradient(to right,red,blue);
+}
+.grid {
+   margin-left: 30%;
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: dashed 3px black;
+    margin-top: 20px;
+    background-color: yellow;
+    z-index: -1;
+
+  }
+  
+  .user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+  }
+  
+  .block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: green;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: blue;
+
+  }
+  #loss{
+      position: relative;
+      width: 350px;
+      height: 200px;
+     align-items: center;
+      background-color: white;
+      display:none;
+      margin-top: 10%;
+      margin-left: 40%;
+      z-index: 1;
+      background-color: rgba(14, 1, 1, 0.583);
+  }
+  #loss img{
+      position: relative;
+      padding-left: 30%;
+      padding-top: 1%;
+  }
+  #loss h2{
+    padding-left: 25%;
+    text-shadow: 3px 3px 6px red;
+  }
+  #controls{
+width: 30%;
+height: 40px;
+
+    position: relative;
+    margin-top: 370px;
+    margin-left: 30%;
+
+    display: flex;
+    justify-content: center;
+
+  }
+  #controls button{
+    width: 100px;
+    height: 27px;
+    border: none;
+    border-radius: 20px;
+
+    padding: 3px;
+    position: relative;
+    margin-left: 30px;
+    font-size: 18px;
+    color: purple;
+    background: white;
+  }
